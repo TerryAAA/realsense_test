@@ -1,0 +1,49 @@
+Get RGB intrinsics :
+width*height         : 640 * 480
+Principal Point         : 321.498, 237.574
+Focal Length            : 611.251, 609.897
+Distortion Model        : Inverse Brown Conrady
+Distortion Coefficients : [0,0,0,0,0]
+
+
+Get ACCEL intrinsics :
+ Scale X      cross axis      cross axis  Bias X 
+ cross axis    Scale Y        cross axis  Bias Y  
+ cross axis    cross axis     Scale Z     Bias Z  
+1.01337    0.00550319    -0.00463217    0.0100438    
+-0.0125402    1.0218    -0.0156561    0.163721    
+-0.00275231    0.0360512    1.01469    0.452707    
+Variance of noise for X, Y, Z axis 
+0 0 0 
+Variance of bias for X, Y, Z axis 
+0 0 0 
+
+
+Get GYRO intrinsics :
+ Scale X      cross axis      cross axis  Bias X 
+ cross axis    Scale Y        cross axis  Bias Y  
+ cross axis    cross axis     Scale Z     Bias Z  
+1    0    0    -8.30687e-06    
+0    1    0    4.60733e-05    
+0    0    1    -5.22215e-05    
+Variance of noise for X, Y, Z axis 
+0 0 0 
+Variance of bias for X, Y, Z axis 
+0 0 0 
+
+
+Get IR intrinsics :
+width*height         : 640 * 480
+Principal Point         : 318.966, 240.023
+Focal Length            : 383.378, 383.378
+Distortion Model        : Brown Conrady
+Distortion Coefficients : [0,0,0,0,0]
+
+
+Get DEPTH intrinsics :
+width*height         : 640 * 480
+Principal Point         : 318.966, 240.023
+Focal Length            : 383.378, 383.378
+Distortion Model        : Brown Conrady
+Distortion Coefficients : [0,0,0,0,0]
+
